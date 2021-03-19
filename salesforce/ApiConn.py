@@ -2,7 +2,6 @@ import json
 import pandas as pd
 from simple_salesforce import Salesforce, SalesforceLogin, SFType
 
-
 loginInfo = json.load(open('login.json'))
 username = loginInfo['username']
 password = loginInfo['password']
